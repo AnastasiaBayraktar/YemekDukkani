@@ -6,7 +6,7 @@ RESTAURANT SİTESİ
 
 
 
--Default admin girişi --> email:admin@gmail.com // şifre: Admin123.(sonunda nokta var)
+## Default admin girişi --> email:admin@gmail.com // şifre: Admin123.(sonunda nokta var)
 
 Anastasia Bayraktar G141210105
 
