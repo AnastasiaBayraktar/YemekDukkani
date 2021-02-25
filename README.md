@@ -13,7 +13,7 @@ Anastasia Bayraktar G141210105
 
 Azure https://taste20191222092555.azurewebsites.net/Customer/Home 
 
- #Taste
+ # Taste
 
 -Dependencies--> Kullanılacak teknoloji,frameworkleri içerir.
 -Taste proje dosyası genel olarak front-end kısmını oluşturuyor.
@@ -24,19 +24,19 @@ Azure https://taste20191222092555.azurewebsites.net/Customer/Home
 -Shared->Layout -->web sitesinin genel front-end kısmını yönetir. 
 -Startup-->proje açılırken çalışacak servisleri başlatır.
 
-#Taste.DataAccess- 
+# Taste.DataAccess
 
 -Initializer-->Site için role'lerin(admin,üye...) işlemlerinin olduğu kısım.
 -Repository-->Veritabanı sorgulama işlemlerinin bir merkezden yapılmasını sağlayan yapı.Tekrar bir yapıyı kullanmak yerine sistematik bir kalıp içerisinde çalışır.
 -DBContext-->Veritabanına karşılık gelen obje yapısıdır. İçinde tablo yapısında karşılık gelen DbSet objelerini bulundurur.-CRUD(Create,Read,Update,Delete) işlemlerini gerçekleştirir.
 -Migration-->CodeFirst ile yazılan bir projede, bilgilerin veri tabanında sık sık güncelleştirmesi durumu olduğunda; her defasında tüm veriler veri tabanında sıfırdan oluşturuluyor.
 
-#Taste.Models
+# Taste.Models
 
 Genel olarak VeriTabanınında bulunun her özelliğin (Id,isim,numara...) nesne olarak oluşturup daha sonra Controller katmanında gerekli işlemleri yaparak kullanabilmemize olaran tanımaktadır.
 Herbir sınıf ismi bir tabloyu belirtmektedir.(Category.cs-->Category tablosu)
 
-#Taste.Utility
+# Taste.Utility
 
 Statüye göre güvenli ödeme yapılmasını sağlayan katman.
 EmailSender->ödeme esnasında e-mail sorgusu yapar.
